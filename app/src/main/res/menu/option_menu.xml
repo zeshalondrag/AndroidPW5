@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_dehaze"
+        android:title="Меню"
+        android:icon="@drawable/baseline_dehaze_24"
+        android:orderInCategory="100"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Настройки"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_android_black_24dp"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="Дополнительно">
+        <menu>
+            <group android:id="@+id/fragments">
+                <item android:id="@+id/frag_first" android:title="Первый" />
+                <item android:id="@+id/frag_two" android:title="Второй" />
+            </group>
+        </menu>
+    </item>
+</menu>
